@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int inputCount;
+   int value;
+   int i;
+
+   cin >> inputCount;
+  
+   
+ for (i = 0; i < inputCount; ++i){
+   cin >> value;
+   cout << value << " " << "potatoes\n";
+    }
+
+   return 0;
+}

@@ -1,0 +1,26 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   bool isRed;
+   bool isBalloon;
+
+   cin >> isRed;
+   cin >> isBalloon;
+
+
+   if (isBalloon && !isRed){
+      cout << "Balloon\n";  
+      }
+
+   else if (isBalloon && isRed == true){
+      cout << "Red balloon\n";
+}
+else {
+   cout << "Not a balloon\n";
+   }
+
+
+   return 0;
+}

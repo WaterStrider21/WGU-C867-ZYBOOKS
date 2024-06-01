@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int firstNumber;
+   int i;
+
+   cin >> firstNumber;
+
+   for(i = firstNumber ; i>= 1; i--) {
+      cout << i << endl;
+   }
+
+   return 0;
+}irst
